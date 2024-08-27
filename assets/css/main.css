@@ -3291,6 +3291,59 @@ div[class^="fancy-box"] img {
   transition: ease-out 0.14s;
 }
 
+.f-box.style-1.box-1 {
+  border: 1px solid rgba(0, 76, 110, 0.2) !important;
+  width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+  -webkit-transition: ease-out 0.14s;
+  transition: ease-out 0.14s;
+  border-radius: 50%;
+}
+
+.f-box.style-1.box-2 {
+  border: 1px solid rgba(93, 155, 177, 0.2) !important;
+  width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+  -webkit-transition: ease-out 0.14s;
+  transition: ease-out 0.14s;
+  border-radius: 50%;
+}
+
+
+.f-box.style-1.box-3 {
+  border: 1px solid rgba(237, 132, 63, 0.2) !important;
+  width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+  -webkit-transition: ease-out 0.14s;
+  transition: ease-out 0.14s;
+  border-radius: 50%;
+}
+
+.f-box.style-1.box-4 {
+  border: 1px solid rgba(250, 175, 126, 0.2) !important;
+  width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+  -webkit-transition: ease-out 0.14s;
+  transition: ease-out 0.14s;
+  border-radius: 50%;
+}
+
 @media (max-width: 1199.98px) {
   .f-box.style-1 {
     padding: 34px 30px;
@@ -3311,6 +3364,24 @@ div[class^="fancy-box"] img {
 
 .f-box.style-1:hover {
   border-color: #141618;
+}
+
+.f-box.style-1.box-1:hover {
+  border-color:   #004C6E !important;
+  
+}
+.f-box.style-1.box-2:hover {
+  border-color:   #5D9BB1 !important;
+  
+}
+
+.f-box.style-1.box-3:hover {
+  border-color:   #ED843F !important;
+  
+}
+.f-box.style-1.box-4:hover {
+  border-color:   #FAAF7E !important;
+  
 }
 
 .f-box.style-2 {
