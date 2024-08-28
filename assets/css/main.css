@@ -5805,7 +5805,7 @@ div[class^='bg-white'].fm-wrapper .fm-close span:before, div[class^='bg-white'].
 }
 
 .header.absolute-dark, .header.absolute-light, .header.absolute-dark.dark, .header.absolute-light.dark, .header.absolute-dark.black, .header.absolute-light.black {
-  background: #3D9EB5;
+  background: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -8848,7 +8848,7 @@ background: #F3FCFF;
 }
 
 .bg-dark-11{
-  background: #52CCE0 !important;
+  background: #3D9EB5 !important;
  
 }
 
