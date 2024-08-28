@@ -1,11 +1,4 @@
-/*------------------------------------------------
-*
-* Template name : Arty
-* Version       : 2.2.7
-* Author        : FlaTheme
-* Author URL    : http://themeforest.net/user/flatheme
-*
--------------------------------------------------*/
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 html, body {
@@ -355,7 +348,7 @@ div[class^='bg-dark'] .pagination .page-item.active .page-link, div[class*=' bg-
 }
 
 hr {
-  border-color: rgba(20, 22, 24, 0.1);
+  border-color: #3D9EB5 !important;
 }
 
 div[class^='bg-dark'] hr, div[class*=' bg-dark'] hr, .bg-black hr {
@@ -927,6 +920,19 @@ h6 {
   font-size: 1em;
   line-height: 1.87;
 }
+
+.text-dark{
+
+  color: #004C6E !important;
+}
+
+
+.text-grey{
+
+  color: #6D6E71 !important;
+}
+
+
 
 .display-1 {
   font-size: 6em;
@@ -3291,6 +3297,15 @@ div[class^="fancy-box"] img {
   transition: ease-out 0.14s;
 }
 
+.f-box.style-1.box-formacion {
+  border: 1px solid rgba(61, 158, 181, 0.8);
+  padding: 44px 36px;
+  -webkit-transition: ease-out 0.14s;
+  transition: ease-out 0.14s;
+  text-align: center;
+}
+
+
 .f-box.style-1.box-1 {
   border: 1px solid rgba(0, 76, 110, 0.2) !important;
   width: 150px;
@@ -3303,6 +3318,7 @@ div[class^="fancy-box"] img {
   transition: ease-out 0.14s;
   border-radius: 50%;
 }
+
 
 .f-box.style-1.box-2 {
   border: 1px solid rgba(93, 155, 177, 0.2) !important;
@@ -3366,6 +3382,10 @@ div[class^="fancy-box"] img {
   border-color: #141618;
 }
 
+.f-box.style-1.box-formacion:hover {
+  border-color: rgba(61, 158, 181) !important;
+}
+
 .f-box.style-1.box-1:hover {
   border-color:   #004C6E !important;
   
@@ -3421,9 +3441,9 @@ div[class^="fancy-box"] img {
   border-color: transparent;
 }
 
-div[class^='bg-dark'] .f-box.style-1, div[class^='bg-dark'] .f-box.style-2, div[class*=' bg-dark'] .f-box.style-1, div[class*=' bg-dark'] .f-box.style-2, .bg-black .f-box.style-1, .bg-black .f-box.style-2 {
+/* div[class^='bg-dark'] .f-box.style-1, div[class^='bg-dark'] .f-box.style-2, div[class*=' bg-dark'] .f-box.style-1, div[class*=' bg-dark'] .f-box.style-2, .bg-black .f-box.style-1, .bg-black .f-box.style-2 {
   border-color: rgba(255, 255, 255, 0.1);
-}
+} */
 
 div[class^='bg-dark'] .f-box.style-1 .f-box-icon, div[class*=' bg-dark'] .f-box.style-1 .f-box-icon, .bg-black .f-box.style-1 .f-box-icon {
   color: #fff;
@@ -4623,7 +4643,7 @@ div[class^='bg-dark'] .owl-carousel .owl-dots .owl-dot:hover:after, div[class^='
   right: 0;
   left: 0;
   opacity: 0.9;
-  background: #141618;
+  background: #004C6E;
   width: 60px;
   height: 60px;
   margin: 4px 0;
@@ -5785,7 +5805,7 @@ div[class^='bg-white'].fm-wrapper .fm-close span:before, div[class^='bg-white'].
 }
 
 .header.absolute-dark, .header.absolute-light, .header.absolute-dark.dark, .header.absolute-light.dark, .header.absolute-dark.black, .header.absolute-light.black {
-  background: transparent;
+  background: #3D9EB5;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -8812,6 +8832,8 @@ body.loaded:after {
   }
 }
 
+
+
 .bg-black {
   background: #000;
 }
@@ -8850,6 +8872,14 @@ background: #F3FCFF;
   background: rgba(0, 76, 110, 0.8);
 }
 
+.bg-dark-055 {
+  
+  background-image: linear-gradient(rgba(255 255 255 / 40%), rgba(255 255 255 / 80%), #ffffff);
+}
+.bg-dark-0555 {
+  
+  background-image: linear-gradient(rgba(255 255 255 / 80%), rgba(255 255 255 / 98%), #ffffff);
+}
 .bg-dark-04 {
   background: rgba(20, 22, 24, 0.4);
 }
