@@ -2801,7 +2801,8 @@ div[class^='bg-dark'] a[class^='button-ct']:hover .button-ct-text, div[class*=' 
   float: left;
   width: 16.6%;
   margin: 0;
-  padding: 34px 30px;
+  padding: 15px 30px;
+  border: 1px solid #e3e6e9;
 }
 
 .clients-grid li:before, .clients-grid li:after {
@@ -2809,19 +2810,19 @@ div[class^='bg-dark'] a[class^='button-ct']:hover .button-ct-text, div[class*=' 
   position: absolute;
 }
 
-.clients-grid li:before {
+/* .clients-grid li:before {
   top: 0;
   left: -1px;
   height: 100%;
-  border-left: 1px dashed #e3e6e9;
+  border: 1px solid #e3e6e9;
 }
 
 .clients-grid li:after {
   left: 0;
   bottom: -1px;
   width: 100%;
-  border-bottom: 1px dashed #e3e6e9;
-}
+  border: 1px solid #e3e6e9;
+} */
 
 .clients-grid li a img {
   opacity: 0.5;
@@ -4071,8 +4072,8 @@ div[class^='bg-dark'] .progress-box .progress .progress-bar, div[class*=' bg-dar
 .owl-carousel .owl-dots .owl-dot {
   position: relative;
   display: inline-block;
-  width: 24px;
-  height: 24px;
+  width: 35px;
+  height: 35px;
   margin: 0 2px;
   vertical-align: middle;
 }
@@ -4086,7 +4087,7 @@ div[class^='bg-dark'] .progress-box .progress .progress-bar, div[class*=' bg-dar
   left: 2px;
   opacity: 0;
   background: transparent;
-  border: 1px solid #141618;
+  border: 1px solid #3D9EB5;
   border-radius: 50%;
   -webkit-transition: ease-out 0.16s;
   transition: ease-out 0.16s;
@@ -4100,9 +4101,9 @@ div[class^='bg-dark'] .progress-box .progress .progress-bar, div[class*=' bg-dar
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   opacity: 0.4;
-  background: #141618;
-  width: 4px;
-  height: 4px;
+  background: #3D9EB5;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   -webkit-transition: ease-out 0.16s;
   transition: ease-out 0.16s;
