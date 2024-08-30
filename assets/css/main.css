@@ -3944,7 +3944,14 @@ div[class^='bg-dark'] .progress-box .progress .progress-bar, div[class*=' bg-dar
   background: #3D9EB5;
 }
 
+.sf-box.dark2 .sf-box-icon {
+  background: #004C6E ;
+}
 .sf-box.dark .sf-box-icon * {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.sf-box.dark2 .sf-box-icon * {
   color: rgba(255, 255, 255, 0.9);
 }
 
